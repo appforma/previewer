@@ -10,7 +10,7 @@
 
 # Use at least one worker per core if you're on a dedicated server,
 # more will usually help for _short_ waits on databases/caches.
-worker_processes 8
+worker_processes 5
 
 working_directory "#{ENV['RAILS_STACK_PATH']}"
 
