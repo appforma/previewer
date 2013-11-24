@@ -20,6 +20,7 @@ module ImageProcessing
           driver = Selenium::WebDriver.for :firefox
 
           begin
+            url = CGI.parse(url).keys.first
             element = driver.get url
             sleep 0.5.seconds # Wait for javascript load to complete
             element_id = options[:element_id]
