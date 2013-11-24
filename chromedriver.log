@@ -1,0 +1,51 @@
+[0.000][INFO]:      ChromeDriver 26.0.1383.0 /usr/local/bin/chromedriver
+[0.017][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.detach": true,
+   "chromeOptions": {
+      "detach": true
+   },
+   "cssSelectorsEnabled": true,
+   "javascriptEnabled": true,
+   "nativeEvents": false,
+   "platform": "ANY",
+   "rotatable": false,
+   "takesScreenshot": false,
+   "version": ""
+}
+
+[0.033][INFO]:      Using named testing interface
+[12.026][INFO]:     Connected to Chrome successfully. Version: 31.0.1650.57
+[12.175][FINE]:     Command received (/session/64e7afca06896a252667acf34e3a2f78)
+[12.175][FINE]:     Command finished (/session/64e7afca06896a252667acf34e3a2f78) with response {
+   "sessionId": "64e7afca06896a252667acf34e3a2f78",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "26.0.1383.0",
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "linux",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "31.0.1650.57",
+      "webStorageEnabled": true
+   }
+}
+
+[12.204][FINE]:     Command received (/session/64e7afca06896a252667acf34e3a2f78/url) with params {
+   "url": "www.google.com"
+}
+
+[12.204][FINER]:    Waiting for all views to stop loading...
+[12.204][FINER]:    Done waiting for all views to stop loading
+[12.205][FINE]:     Command received (/session/64e7afca06896a252667acf34e3a2f78)
+[22.875][WARNING]:  Chrome still running, terminating...
+[22.875][INFO]:     Chrome shutdown
