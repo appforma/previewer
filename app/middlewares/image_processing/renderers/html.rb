@@ -19,7 +19,6 @@ module ImageProcessing
         Headless.new(display: 100, reuse: true).start
         driver = Selenium::WebDriver.for :firefox
 
-        begin
           url = CGI.parse(url).keys.first
           element = driver.get url
           sleep 0.5.seconds # Wait for javascript load to complete
@@ -42,9 +41,6 @@ module ImageProcessing
             driver.manage.window.maximize
             driver.save_screenshot(temp_path)
           end
-        ensure
-          driver.quit
-        end  
 
         end_time = Time.now
         puts "---- END: #{end_time} ----"
