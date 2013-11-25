@@ -16,7 +16,7 @@ module ImageProcessing
         puts "---- START: #{start_time} ----"
         puts ">>>>>>>>>>>>>>>>>>> #TMP PTH: #{temp_path}"
 
-        Headless.new(display: 100, reuse: true).start
+        Headless.new(display: 100, reuse: false).start
         driver = Selenium::WebDriver.for :firefox
 
         begin
